@@ -70,7 +70,7 @@ public class DominoPileTester {
      *  This would cause this test to fail, despite the implementation of shuffleOptionOne being correct.
      */
    @Test
-   public void testShuffle() {
+    public void testShuffle() {
         setUp();
         dominoPile.newStack6();
         dominoPile.shuffle();
@@ -89,6 +89,7 @@ public class DominoPileTester {
         }
        assertTrue("Ensure that your shuffleOption1 method in the DominoPile class has been implemented correctly!", !allInSameOrder);
    }
+
 
    
 }
