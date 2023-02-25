@@ -62,6 +62,18 @@ public class Domino {
 
     }
 
+    public int compareToWeight(Domino other){
+        if((this.top > other.top && this.top > other.bottom) || (this.bottom > other.top && this.bottom > other.bottom)){
+            return 1;
+        }
+        else if((this.top < other.top && this.top < other.bottom) || (this.bottom < other.top && this.bottom < other.bottom)){
+            return -1;
+        }
+        else
+            return 0;
+
+    }
+
 
     public boolean canConnect(Domino other){
         return (this.top == other.top) || (this.top == other.bottom) || (this.bottom == other.top) || (this.bottom == other.bottom);

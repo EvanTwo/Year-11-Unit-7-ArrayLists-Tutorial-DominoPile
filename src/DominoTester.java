@@ -155,7 +155,7 @@ public class DominoTester {
         setUp();
         domino.setTop(6);
         domino.setBottom(2);
-        assertEquals("Ensure that your compareTo method in the Domino class has been implemented correctly!", 0, domino.compareTo(otherDomino));
+        assertEquals("Ensure that your compareToWeight method in the Domino class has been implemented correctly!", 0, domino.compareToWeight(otherDomino));
         tearDown();
     }
 
