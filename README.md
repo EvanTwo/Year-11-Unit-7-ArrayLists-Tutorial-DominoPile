@@ -44,3 +44,7 @@ Implement the following Methods:
 - shuffle() - puts the dominos in a random order within the stack.
   - Option #1 - take all the values out of the original pile in a random order and add them to a new pile. Make the original pile equal to the new pile.
   - Option #2 - loop a large number of times simply grabbing 2 random tiles at a time and swapping their places.
+
+Name: Ivan
+
+Partner: None
